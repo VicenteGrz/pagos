@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="assets/plugins/qrCode.min.js"></script>
+</head>
+<body>
+  <div class="row justify-content-center mt-5">
+    <div class="col-sm-4 shadow p-3">
+      <h5 class="text-center">Escanear codigo QR</h5>
+      <div class="row text-center">
+        <a id="btn-scan-qr" href="#">
+      
+        <canvas hidden="" id="qr-canvas" class="img-fluid"></canvas>
+        </div>
+        <div class="row mx-5 my-3">
+        <button class="btn btn-success btn-sm rounded-3 mb-2" onclick="encenderCamara()">Buscar</button>
+        <button class="btn btn-danger btn-sm rounded-3" onclick="cerrarCamara()">Cancelar</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultado de Búsqueda</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-sm-8">
+        <div class="card">
+          <div class="card-body">
+            <div id="resultado-container">
+              <!-- El contenido de la tabla se insertará aquí -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="assets/js/index.js"></script>
+</html>
